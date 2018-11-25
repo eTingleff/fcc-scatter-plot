@@ -1,0 +1,26 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page .container {
+  display: flex;
+  align-self: center;
+  height: 700px;
+  width: 1000px;
+  position: relative;
+}
+
+.container #plot {
+  display: flex;
+  position: relative;
+}
+
+#title {
+  text-align: center;
+}
